@@ -1,0 +1,56 @@
+# Ignore .NET build and publish files
+/backend/bin/
+/backend/obj/
+/backend/.vs/
+
+# Ignore Angular build files
+/frontend/node_modules/
+/frontend/dist/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# User secrets (optional)
+**/appsettings.*.json
+
+# === .NET / ASP.NET Core ===
+/backend/bin/
+/backend/obj/
+/backend/.vs/
+**/appsettings.*.json
+
+# === Angular ===
+/frontend/node_modules
+/frontend/dist
+/frontend/tmp
+/frontend/out-tsc
+/frontend/.angular/cache
+/frontend/bazel-out
+/frontend/coverage
+/frontend/.sass-cache/
+/frontend/connect.lock
+/frontend/libpeerconnection.log
+/frontend/testem.log
+/frontend/typings
+/frontend/.DS_Store
+/frontend/Thumbs.db
+/frontend/npm-debug.log
+/frontend/yarn-error.log
+
+# === Editor/IDE settings ===
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# === Miscellaneous ===
+.history/*
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
